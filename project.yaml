@@ -2,92 +2,96 @@ basic:
     name: /auditor-controllers-office/
     environments:
         production: 'https://ventura.org/auditor-controllers-office/'
-        staging: 'https://venturacounty.gov/auditor-controllers-office/'
+        staging: 'https://s48024.p1092.sites.pressdns.com/auditor-controllers-office/'
         development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: { user: '', password: '' }
     breakpoints:
         - 640
         - 1024
         - 1200
     pages:
         - /
-        - tax-rate-database
-        - employee-fraud-hotline
-        - organization-chart
-        - financial-reporting-division
-        - general-accounting-division
-        - internal-audit-division
-        - property-tax-division
-        - staff-directory
-        - audit-reports-fy-2024-2025
-        - audit-reports-fy-2023-2024
-        - audit-reports-fy-2022-2023
-        - audit-reports-fy-2021-2022
-        - audit-reports-fy-2020-2021
-        - audit-reports-fy-2019-2020
-        - audit-reports-fy-2018-2019
-        - audit-reports-fy-2017-2018
-        - audit-reports-fy-2016-2017
-        - audit-reports-fy-2015-2016
-        - audit-reports-fy-2014-2015
-        - audit-reports-fy-2013-2014
-        - audit-reports-fy-2012-2013
-        - audit-reports-fy-2011-2012
-        - audit-reports-fy-2010-2011
-        - audit-reports-fy-2009-2010
-        - audit-reports-fy-2008-2009
-        - audit-reports-fy-2007-2008
-        - audit-reports-fy-2006-2007
-        - audit-reports-fy-2005-2006-2
-        - adopted-budget-2024-2025
-        - adopted-budget-2023-2024
-        - adopted-budget-fy-2022-2023
-        - adopted-budget-fy-2021-2022
-        - adopted-budget-fy-2021-22
-        - adopted-budget-fy-2019-2020
-        - adopted-budget-fy-2018-2019
-        - adopted-budget-fy-2017-2018
-        - adopted-budget-fy-2016-2017
-        - adopted-budget-fy-2015-2016
-        - adopted-budget-fy-2014-2015
-        - adopted-budget-fy-2013-2014
-        - adopted-budget-fy-2012-2013
-        - adopted-budget-fy-2011-2012
-        - adopted-budget-fy-2010-2011
-        - adopted-budget-fy-2009-2010
-        - adopted-budget-fy-2008-2009
-        - annual-comprehensive-financial-report-2024
-        - annual-comprehensive-financial-report-2023
-        - annual-comprehensive-financial-report-2022
-        - annual-comprehensive-financial-report-2021
-        - annual-comprehensive-financial-report-2020
-        - annual-comprehensive-financial-report-2019
-        - annual-comprehensive-financial-report-2018
-        - annual-comprehensive-financial-report-2017
-        - annual-comprehensive-financial-report-2016
-        - annual-comprehensive-financial-report-2015
-        - annual-comprehensive-financial-report-2014
-        - annual-comprehensive-financial-report-2013
-        - annual-comprehensive-financial-report-2012
-        - annual-comprehensive-financial-report-2011
-        - annual-comprehensive-financial-report-2010
-        - single-audit
-        - payroll-information
-        - ab8-tra-history
-        - annual-levy
-        - paidunpaid-reports
-        - submission-procedures
-        - district-recap-valuations
-        - redevelopment
-        - tax-rates-and-info
-        - unclaimed-property-tax-refunds
-        - fraud-hotline
-        - faq
-        - hotline-reports
-        - poster-brochure
-        - press-releases
-        - top-five-pages
-        - contact-us
-        - links
+        - /tax-rate-database
+        - /employee-fraud-hotline
+        - /organization-chart
+        - /financial-reporting-division
+        - /general-accounting-division
+        - /internal-audit-division
+        - /property-tax-division
+        - /staff-directory
+        - /audit-reports-fy-2024-2025
+        - /audit-reports-fy-2023-2024
+        - /audit-reports-fy-2022-2023
+        - /audit-reports-fy-2021-2022
+        - /audit-reports-fy-2020-2021
+        - /audit-reports-fy-2019-2020
+        - /audit-reports-fy-2018-2019
+        - /audit-reports-fy-2017-2018
+        - /audit-reports-fy-2016-2017
+        - /audit-reports-fy-2015-2016
+        - /audit-reports-fy-2014-2015
+        - /audit-reports-fy-2013-2014
+        - /audit-reports-fy-2012-2013
+        - /audit-reports-fy-2011-2012
+        - /audit-reports-fy-2010-2011
+        - /audit-reports-fy-2009-2010
+        - /audit-reports-fy-2008-2009
+        - /audit-reports-fy-2007-2008
+        - /audit-reports-fy-2006-2007
+        - /audit-reports-fy-2005-2006-2
+        - /adopted-budget-2024-2025
+        - /adopted-budget-2023-2024
+        - /adopted-budget-fy-2022-2023
+        - /adopted-budget-fy-2021-2022
+        - /adopted-budget-fy-2021-22
+        - /adopted-budget-fy-2019-2020
+        - /adopted-budget-fy-2018-2019
+        - /adopted-budget-fy-2017-2018
+        - /adopted-budget-fy-2016-2017
+        - /adopted-budget-fy-2015-2016
+        - /adopted-budget-fy-2014-2015
+        - /adopted-budget-fy-2013-2014
+        - /adopted-budget-fy-2012-2013
+        - /adopted-budget-fy-2011-2012
+        - /adopted-budget-fy-2010-2011
+        - /adopted-budget-fy-2009-2010
+        - /adopted-budget-fy-2008-2009
+        - /annual-comprehensive-financial-report-2024
+        - /annual-comprehensive-financial-report-2023
+        - /annual-comprehensive-financial-report-2022
+        - /annual-comprehensive-financial-report-2021
+        - /annual-comprehensive-financial-report-2020
+        - /annual-comprehensive-financial-report-2019
+        - /annual-comprehensive-financial-report-2018
+        - /annual-comprehensive-financial-report-2017
+        - /annual-comprehensive-financial-report-2016
+        - /annual-comprehensive-financial-report-2015
+        - /annual-comprehensive-financial-report-2014
+        - /annual-comprehensive-financial-report-2013
+        - /annual-comprehensive-financial-report-2012
+        - /annual-comprehensive-financial-report-2011
+        - /annual-comprehensive-financial-report-2010
+        - /single-audit
+        - /payroll-information
+        - /ab8-tra-history
+        - /annual-levy
+        - /paidunpaid-reports
+        - /submission-procedures
+        - /district-recap-valuations
+        - /redevelopment
+        - /tax-rates-and-info
+        - /unclaimed-property-tax-refunds
+        - /fraud-hotline
+        - /faq
+        - /hotline-reports
+        - /poster-brochure
+        - /press-releases
+        - /top-five-pages
+        - /contact-us
+        - /links
     monitoring:
         days: {  }
         type: ''
@@ -98,7 +102,6 @@ basic:
 advanced:
     mask: ''
     remove: ''
-    isolate: ''
     delay: 15
     scroll: true
     headers:
@@ -106,7 +109,23 @@ advanced:
     cookies: ''
     custom_js: ''
     custom_css: ''
-    mock_content: ''
+    mock_content:
+        - { selector: '', type: title }
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
     performance:
         workers_production: 30
         workers_nonproduction: 10
